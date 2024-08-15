@@ -5,7 +5,7 @@
 - CSS
 
 ## Site rodando online
-- [Site online](https://site-simples-87.netlify.app/)
+- [Site online](https://css-playground-87.netlify.app/)
 
 ## Como rodar o projeto na sua máquina (para desenvolver)
 1. Git clone do projeto

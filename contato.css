@@ -1,0 +1,30 @@
+/* COMPONENTE FORM */
+main {
+    /* padding: 30px; */
+    padding: 30px 200px;
+}
+
+form {
+    /* border: solid red 3px; */
+}
+
+form > * {
+    /* border: solid green 3px; */
+}
+
+form > label {
+    display: block;
+}
+
+form > input, form > textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form > button {
+    background-color: rgb(77, 77, 77);
+    color: rgb(226, 222, 222);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

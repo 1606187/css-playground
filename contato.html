@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="contato.css">
     <title>Contato</title>
 </head>
 
@@ -17,7 +18,27 @@
     </header>
 
     <main>
-        Olá site simples!
+
+        <section>
+            <h2>Formulário de contato</h2>
+
+            <form action="" method="post">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="subject">Assunto</label>
+                <input type="text" name="subject" id="subject">
+
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+
     </main>
 
 </body>

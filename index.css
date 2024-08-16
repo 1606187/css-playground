@@ -1,0 +1,37 @@
+/* RESETS */
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+/* LAYOUT */
+main {
+    padding: 30px;
+}
+
+/* COMPONENTES */
+.noticia {
+    margin-bottom: 25px;
+}
+
+.noticia div p {
+    width: 60ch;
+}
+
+.noticia footer a {
+    background-color: rgb(77, 77, 77);
+    color: rgb(226, 222, 222);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.noticia footer a:hover {
+    background-color: rgb(162, 159, 159);
+    border: solid 1px black;
+    color: black;
+    box-shadow: 0px 3px 10px 1px gray;
+}
